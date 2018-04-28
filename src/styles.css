@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: sans-serif;
+}
+
+header{
+  padding: 10px;
+  position: fixed;
+  right: 6px;
+  color: slateblue;
+  font-weight: bold;
+  /* top: 45%;
+  left: 306px; */
+}
+
+.scale {
+  position: absolute;
+  top: 50%;
+  margin-bottom: 50vh;
+}
+.scale > span {
+  display: block;
+  height: 1in;
+  border-left: 2px solid gray;
+  width: 30px;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+  font-size: 14px;
+}
